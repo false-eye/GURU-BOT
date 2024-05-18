@@ -14,8 +14,8 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
     const { key } = await conn.sendMessage(
       m.chat,
       {
-        image: { url: 'https://telegra.ph/file/c3f9e4124de1f31c1c6ae.jpg' },
-        caption: 'Thinking....',
+        image: { url: 'https://telegra.ph/file/95c86438f243c0a9847b4.jpg' },
+        caption: 'Wait Nigga, Thinking....',
       },
       { quoted: m }
     )
@@ -30,7 +30,7 @@ let handler = async (m, { text, conn, usedPrefix, command }) => {
       let result = data.result
 
       if (!result) {
-        throw new Error('No valid JSON response from the first API')
+        throw new Error('Oh shit!, No valid JSON response from the first API')
       }
 
       await conn.relayMessage(
