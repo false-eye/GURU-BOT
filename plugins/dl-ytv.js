@@ -17,11 +17,11 @@ let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) =
   }
   const data = await response.json()
 
-  const caption = `✼ ••๑⋯❀ Y O U T U B E ❀⋯⋅๑•• ✼
+  const caption = `✦⋯⋯ Y O U T U B E ⋯⋯⋅✦
 	  
   ❏ Title: ${data.data.title}
   ❒ Link: ${args[0]}
-  ⊱─━⊱༻●༺⊰━─⊰`
+  ⊱─━⊱༻✦༺⊰━─⊰`
   let vres = data.data.vid_360p
 
   let vid = await fetch(vres)
