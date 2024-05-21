@@ -81,7 +81,7 @@ global.dygp = 'https://t.me/sarca_stics'
 global.fgsc = 'https://github.com/false-eye'
 global.fgyt = 'https://t.me/false_eye'
 global.fgpyp = 'https://t.me/false_eye'
-global.fglog = 'https://telegra.ph/file/7202169e146c5ed2cb35f.jpg'
+global.fglog = 'https://telegra.ph/file/aee317218a9ec540e544c.jpg'
 global.thumb = fs.readFileSync('./Assets/Gurulogo.jpg')
 
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
