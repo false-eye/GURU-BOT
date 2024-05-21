@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler = async (m, { conn, usedPrefix: _p }) => {
-  let img = 'https://avatars.githubusercontent.com/u/106463398?v=4'
+  let img = 'https://telegra.ph/file/35a8070434cf5dfaeed28.jpg'
   let info = `*BOT ACTIVE*`
   await conn.reply(m.chat, info, m, {
     contextInfo: {
