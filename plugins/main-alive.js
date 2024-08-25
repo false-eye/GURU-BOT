@@ -1,15 +1,15 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/Guru322/GURU-BOT@main/Assets/mp3/Alive.mp3'
-  let url = 'https://github.com/Guru322/GURU-BOT'
-  let murl = 'https://youtu.be/DibiLc17dh0?si=xp9bQ-_frEyDB1-i'
-  let img = 'https://cdn.wallpapersafari.com/71/19/7ZfcpT.png'
+  var vn = 'https://cdn.jsdelivr.net/gh/false-eye/GURU-BOT@main/Assets/mp3/Alive.mp3'
+  let url = 'https://t.me/sarca_stics'
+  let murl = 'https://i.imgur.com/4WD4MVM.mp4'
+  let img = 'https://imgur.com/wADXTL5.jpg'
   let con = {
     key: {
       fromMe: false,
       participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}),
+      ...(m.chat ? { remoteJid: 'https://instagram.com/false_eye' } : {}),
     },
     message: {
       contactMessage: {
@@ -25,15 +25,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     mimetype: 'audio/mpeg',
     ptt: true,
     waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'Guru',
+    fileName: '9x3',
 
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
         title: 'I AM ALIVE',
-        body: 'GURU BOT',
+        body: '9x3 by false 𓂀',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp',
+        sourceUrl: 'https://t.me/sarca_stics',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
