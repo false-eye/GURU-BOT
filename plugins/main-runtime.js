@@ -20,18 +20,18 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       mentionedJid: [m.sender],
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363178281296360@newsletter',
+        newsletterJid: 'https://instagram.con/false_eye',
         newsletterName: global.author,
         serverMessageId: -1,
       },
       forwardingScore: 999,
       externalAdReply: {
-        title: 'ᴛʜᴇ ɢᴜʀᴜ-ʙᴏᴛ',
+        title: '9x3 ~𝒇𝒂𝒍𝒔𝒆 𝒆𝒚𝒆',
         body: 'R U N T I M E',
         thumbnailUrl: pp,
-        sourceUrl: 'https://guruapi.tech',
+        sourceUrl: 'https://t.me/sarca_stics',
         mediaType: 1,
-        renderLargerThumbnail: false,
+        renderLargerThumbnail: true,
       },
     },
   })
