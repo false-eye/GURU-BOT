@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
   }
   m.react('🎶')
   //await displayLoadingScreen(conn, m.chat)
-  let pp = 'https://wallpapercave.com/wp/wp7932387.jpg'
+  let pp = 'https://telegra.ph/file/aee317218a9ec540e544c.jpg'
   const query = encodeURIComponent(text)
   let res = `https://api.guruapi.tech/spotifysearch?query=${query}`
   let spurl = await fetch(res)
@@ -23,7 +23,7 @@ let handler = async (m, { conn, text }) => {
     mimetype: 'audio/mpeg',
     ptt: true,
     waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'Guru.mp3',
+    fileName: '9x3.mp3',
 
     contextInfo: {
       mentionedJid: [m.sender],
@@ -33,7 +33,7 @@ let handler = async (m, { conn, text }) => {
         thumbnailUrl: dlres.data.thumbnail,
         sourceUrl: null,
         mediaType: 1,
-        renderLargerThumbnail: false,
+        renderLargerThumbnail: true,
       },
     },
   }
