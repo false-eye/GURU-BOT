@@ -18,7 +18,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   try {
     const result = await fetch(url)
     const tex = `
-⊱ ─── {* GURU FBDL*} ─── ⊰
+⊱ ─── {*FBDL*} ─── ⊰
 ↳ *VIDEO TITLE:* ${result.result.title}
 ⊱ ────── {⋆♬⋆} ────── ⊰`
 
